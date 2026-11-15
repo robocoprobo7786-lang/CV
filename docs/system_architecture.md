@@ -172,3 +172,4 @@ The test suite in `tests/` provides complete verification across four testing ti
 3. **`test_academic_demonstration.py`:**
    - Full integration regression test covering GUI lifecycle, output management, non-destructive file collision handling, and Matplotlib figure generation.
    - Executes headlessly with **100% pass rate**.
+

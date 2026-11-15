@@ -180,3 +180,4 @@ The application includes an automated collision-free naming engine:
 | **Preview appears small** | Image has small native resolution. | The preview scales down large images to fit, but does not artificially upscale small images to prevent pixelation blur. |
 | **Buttons are grayed out** | No image has been uploaded yet. | Click **`Upload Image`** to enable processing, comparison, and saving buttons. |
 | **Windows display scaling clipping** | Display DPI scaling set to 125% or 150%. | The window is optimized at $1180 \times 720$ with built-in mouse wheel scrolling on the sidebar canvas. |
+

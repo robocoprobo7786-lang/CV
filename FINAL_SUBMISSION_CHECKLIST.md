@@ -19,7 +19,10 @@
 | **Edge Detection Engine** | `src/edge_detection.py` | [x] Verified | 64-bit Sobel, Prewitt, and Laplacian operators with min-max normalization. |
 | **Dependency Specifications** | `requirements.txt` | [x] Verified | Contains opencv-python, numpy, Pillow, matplotlib, reportlab, python-pptx. |
 | **Project Documentation** | `README.md` | [x] Verified | Comprehensive guide with introduction, problem statement, math & walkthrough. |
+| **Desktop User Guide** | `docs/user_guide.md` | [x] Verified | Step-by-step user manual with UI walkthroughs, tutorials, and troubleshooting. |
+| **System Architecture** | `docs/system_architecture.md` | [x] Verified | Technical architecture, MVC design, dataflow pipelines, and state lifecycle. |
 | **Technical Methodology** | `docs/methodology.md` | [x] Verified | Formal mathematical formulations, kernels, derivations, and pipeline safeguards. |
+| **Comparative Analysis** | `docs/comparative_analysis.md` | [x] Verified | Detailed theoretical & empirical evaluation of Sobel vs Prewitt vs Laplacian. |
 | **Academic Project Report** | `docs/project_report.pdf` | [x] Verified | Full 16-section academic PDF report with actual embedded GUI screenshots. |
 | **PowerPoint Presentation** | `docs/presentation.pptx` | [x] Verified | 10-slide 16:9 widescreen presentation deck with embedded figures and tables. |
 | **Video Presentation Script** | `docs/video_presentation_script.md` | [x] Verified | Multi-speaker script with timed speaking sections for 4 team members. |

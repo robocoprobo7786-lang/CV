@@ -25,7 +25,8 @@ A standalone Python desktop application developed for the **B.Tech Computer Visi
 9. [How to Use the GUI](#-how-to-use-the-gui)
 10. [Algorithm Descriptions & Mathematical Equations](#-algorithm-descriptions--mathematical-equations)
 11. [Automated Verification & Testing](#-automated-verification--testing)
-12. [Deliverables Checklist](#-deliverables-checklist)
+12. [Documentation Hub & Deliverables](#-documentation-hub--deliverables)
+13. [Deliverables Checklist](#-deliverables-checklist)
 
 ---
 
@@ -121,10 +122,17 @@ computer-vision-edge-detection/
 │   └── visualizations/                 # High-resolution comparison visualizations (300 DPI)
 │
 ├── docs/                               # Academic documentation deliverables
-│   ├── methodology.md                  # Comprehensive mathematical methodology
-│   ├── project_report.pdf              # Complete 16-section academic PDF report
-│   ├── presentation.pptx               # 10-slide academic PowerPoint presentation
+│   ├── user_guide.md                   # Complete desktop GUI manual & practical tutorials
+│   ├── system_architecture.md          # MVC design, dataflow pipelines & state lifecycle
+│   ├── methodology.md                  # Comprehensive mathematical methodology & kernel formulations
+│   ├── comparative_analysis.md         # In-depth theoretical & empirical operator evaluation
+│   ├── project_report.pdf              # Complete 16-section academic PDF report (ReportLab)
+│   ├── presentation.pptx               # 10-slide academic PowerPoint presentation (python-pptx)
 │   └── video_presentation_script.md    # Multi-speaker presentation script with timings
+│
+├── scripts/                            # Compilation scripts for academic assets
+│   ├── generate_report_pdf.py          # Programmatic PDF report generator
+│   └── generate_presentation_pptx.py   # Programmatic PowerPoint deck generator
 │
 └── assets/                             # Actual application screenshots and GUI mockups
     ├── gui_main_window.png             # Screenshot of main desktop application
@@ -248,13 +256,33 @@ All tests execute headlessly and achieve a **100% pass rate**.
 
 ---
 
+## 📚 Documentation Hub & Deliverables
+
+Comprehensive documentation is provided in the [`docs/`](docs/) directory to satisfy all evaluation and academic review requirements:
+
+| Document | Format | Description & Scope |
+| :--- | :---: | :--- |
+| **[User Guide](docs/user_guide.md)** | Markdown (`.md`) | Complete user manual covering installation, GUI control breakdown, dual canvas features, step-by-step tutorials, metrics interpretation, and troubleshooting. |
+| **[System Architecture](docs/system_architecture.md)** | Markdown (`.md`) | In-depth technical architecture describing MVC separation, module responsibilities, 64-bit numerical precision, Unicode I/O, state machine lifecycle, and testing strategy. |
+| **[Technical Methodology](docs/methodology.md)** | Markdown (`.md`) | Formal mathematical derivations, discrete finite-difference approximations, $3 \times 3$ kernel formulations, Euclidean gradient norms, and zero-crossing theory. |
+| **[Comparative Analysis](docs/comparative_analysis.md)** | Markdown (`.md`) | Theoretical and empirical evaluation comparing Sobel vs. Prewitt vs. Laplacian across noise sensitivity, double-edge artifacts, circular curvature, and benchmark metrics. |
+| **[Academic Project Report](docs/project_report.pdf)** | PDF (`.pdf`) | Publication-quality 16-section project report compiled via ReportLab, containing cover page, theory, system architecture, actual screenshots, and references. |
+| **[Academic Slide Deck](docs/presentation.pptx)** | PPTX (`.pptx`) | 10-slide 16:9 widescreen presentation deck compiled via python-pptx, including algorithm slides, architecture diagrams, and GUI demonstration screenshots. |
+| **[Video Presentation Script](docs/video_presentation_script.md)** | Markdown (`.md`) | Multi-speaker script with timed speaking sections for 4 team members covering all aspects of the project for video submission. |
+| **[Submission Checklist](FINAL_SUBMISSION_CHECKLIST.md)** | Markdown (`.md`) | Comprehensive audit checklist mapping every requirement ID to source files, test outcomes, and deliverables. |
+
+---
+
 ## 📋 Deliverables Checklist
 
 - [x] Standalone Desktop GUI Application (`main.py`, `src/gui.py`)
 - [x] Modular Image Processing Utilities (`src/image_utils.py`)
 - [x] Mathematical Edge Detection Engine (`src/edge_detection.py`)
 - [x] Multi-Algorithm Comparison Studio with 300 DPI Export
+- [x] Desktop Application User Guide (`docs/user_guide.md`)
+- [x] System Architecture & Technical Design (`docs/system_architecture.md`)
 - [x] Comprehensive Mathematical Methodology (`docs/methodology.md`)
+- [x] In-Depth Comparative Analysis (`docs/comparative_analysis.md`)
 - [x] Full Academic Project Report (`docs/project_report.pdf`)
 - [x] Presentation Slide Deck (`docs/presentation.pptx`)
 - [x] Video Presentation Script (`docs/video_presentation_script.md`)

@@ -1,0 +1,10 @@
+# Computer Vision Edge Detection Application Dependencies
+# Course: Computer Vision (256PUPC275)
+
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+matplotlib>=3.7.0
+reportlab>=4.0.0
+python-pptx>=1.0.0
+
